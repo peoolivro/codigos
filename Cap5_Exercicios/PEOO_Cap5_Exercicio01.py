@@ -7,7 +7,7 @@
 termo1    = int(input("Informe o 1º termo da P.A.: "))
 num_termo = int(input("Informe o número de termos da P.A.: "))
 razao     = int(input("Informe a razão da P.A.: "))
-PA = [termo1]
+PA        = [termo1]
 
 termo_anterior = termo1
 print("***** {} primeiros termos da P.A. *****".format(num_termo))
