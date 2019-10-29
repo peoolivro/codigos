@@ -1,4 +1,9 @@
-#Capítulo 05, questão 06
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
+# Capítulo: 05
+# Questão.: 5.14.6
+# Autor...: Fábio Procópio
+# Data....: 15/06/2019
+
 import random
 from random import randrange
 

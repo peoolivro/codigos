@@ -1,11 +1,16 @@
-#Capítulo 05, questão 07
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
+# Capítulo: 05
+# Questão.: 5.14.7
+# Autor...: Fábio Procópio
+# Data....: 15/06/2019
+
 from random import randrange
 import random
 
 lin = int(input("Informe a quantidade de linhas da matriz: "))
 col = int(input("Informe a quantidade de colunas da matriz: "))
-M = [[randrange(1, 11) for i in range(col)]
-                       for j in range(lin)]
+M = [[randrange(0, 2) for i in range(col)]
+                      for j in range(lin)]
 
 #Se optar por não gera a matriz aleatoriamente, para testar o algoritmo
 #crie uma matriz manualmente. A ordem da matriz será 3 x 3, independente da

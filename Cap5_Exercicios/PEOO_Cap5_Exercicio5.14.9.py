@@ -1,4 +1,9 @@
-#Capítulo 05, questão 09
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
+# Capítulo: 05
+# Questão.: 5.14.9
+# Autor...: Fábio Procópio
+# Data....: 15/06/2019
+
 from random import randrange
 import random
 

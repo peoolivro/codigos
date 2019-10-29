@@ -1,4 +1,9 @@
-#Capítulo 05, questão 02
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
+# Capítulo: 05
+# Questão.: 5.14.2
+# Autor...: Fábio Procópio
+# Data....: 15/06/2019
+
 ATLETA = []
 TEMPO  = []
 

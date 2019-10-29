@@ -1,4 +1,8 @@
-#Capítulo 05, questão 04
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
+# Capítulo: 05
+# Questão.: 5.14.4
+# Autor...: Fábio Procópio
+# Data....: 15/06/2019
 
 N = int(input("Digite um número ímpar, maior que 1: "))
 if N <= 1 or N % 2 == 0:

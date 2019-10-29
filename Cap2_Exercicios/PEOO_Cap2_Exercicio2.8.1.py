@@ -1,4 +1,4 @@
-# Livro...: Programação Estruturada e Orientada a Objetos em Python com Aplicações de Sistemas Operacionais
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
 # Capítulo: 02
 # Questão.: 2.8.1
 # Autor...: Fábio Procópio

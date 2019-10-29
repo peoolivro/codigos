@@ -1,4 +1,8 @@
-#Capítulo 05, questão 08
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
+# Capítulo: 05
+# Questão.: 5.14.8
+# Autor...: Fábio Procópio
+# Data....: 15/06/2019
 
 lin = int(input("Informe a quantidade de linhas da matriz: "))
 col = int(input("Informe a quantidade de colunas da matriz: "))

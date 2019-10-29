@@ -1,8 +1,8 @@
-# Livro...: Programação Estruturada e Orientada a Objetos em Python com Aplicações de Sistemas Operacionais
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
 # Capítulo: 05
-# Questão.: 
+# Questão.: 5.14.1
 # Autor...: Fábio Procópio
-# Data....: 31/05/2019
+# Data....: 15/06/2019
 
 termo1    = int(input("Informe o 1º termo da P.A.: "))
 num_termo = int(input("Informe o número de termos da P.A.: "))

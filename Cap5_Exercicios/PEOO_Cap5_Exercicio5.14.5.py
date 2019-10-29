@@ -1,4 +1,9 @@
-#Capítulo 05, questão 05
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
+# Capítulo: 05
+# Questão.: 5.14.5
+# Autor...: Fábio Procópio
+# Data....: 15/06/2019
+
 from math import sqrt
 
 L = [9, 3, 5, 7, 2, 1]
