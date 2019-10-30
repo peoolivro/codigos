@@ -1,154 +1,138 @@
-# Livro.....: Programação Estruturada e Orientada a Objetos em Python com Aplicações de Sistemas Operacionais
-# Capítulo..: 07
-# Autor.....: Fábio Procópio
-# Data......: 24/06/2019
-# Comentário: Este arquivo contém todas as funções dos exercícios propostos do capítulo
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
+# Capítulo: 07
+# Autor...: Emanuel Lázaro
+# Data....: 29/10/2019
+# Comentário: Este arquivo contém todas as funções dos exercícios propostos do Capítulo 07
 
-# Funções da questão 01
+#### Funções utilizadas na Questão 7.3.1 ####
+from math import pi
 def calcula_area_circulo(raio):
-    return 3.14 * pow(raio, 2)
+    return pi * raio**2
 
-def calcula_area_triagulo(base, altura):
-    return (base * altura) / 2
+def calcula_area_triangulo(base, altura):
+    return (base * altura)/2
 
 def calcula_area_retangulo(base, altura):
     return base * altura
+#############################################
 
+#### Funções utilizadas na Questão 7.3.2 ####
+def gera_matriz_aleatoria(linhas, colunas, intervalo_inicial, intervalo_final):
+    from random import randrange
+    M = [[randrange(intervalo_inicial, intervalo_final) for i in range(colunas)]
+          for j in range(linhas)]
+    return M 
+    
+def calcula_traco_matriz(matriz):
+    traco = []
+    soma = 0 
+    for i in range(len(matriz)):
+        traco.append(matriz[i][soma])
+        soma += 1
+    return sum(traco)
+#############################################
 
-# Funções da questão 02
-def gera_matriz_aleatoria(linhas, colunas, inicio, fim):
-   from random import randrange
-   import random
-
-   A = [[randrange(inicio, fim + 1) for i in range(colunas)]
-        for j in range(linhas)]
-
-   return A
-
-def calcula_traco(A):
-   linhas  = len(A)
-   colunas = len(A[1])
-   
-   if linhas == colunas:
-      ordem = len(A)
-      traco = 0
-      for i in range(ordem):
-          traco += A[i][i] 
-
-      return traco
-
-   ''' Função só chegará neste ponto se número de linhas
-   for diferente do número de colunas'''
-   return "ERRO: Matriz não é quadrada. Não existe traço!" 
-
-# Função da questão 03
+#### Funções utilizadas na Questão 7.3.3 ####
 def soma_matrizes(A, B):
-   linhasA  = len(A)
-   colunasA = len(A[1])
-   linhasB  = len(B)
-   colunasB = len(B[1])
+    C = []
+    for i in range(len(A)):
+        C.append([])
+        for j in range(len(A[i])):
+                C[i].append(A[i][j]+B[i][j])
+    return C
+#############################################
 
-   if linhasA == linhasB and colunasA == colunasB:
-      # Cria C, uma matriz nula, de mesma ordem de A e de B. O objetivo é ter 
-      # uma matriz com a mesma ordem das outras duas para executar a operação de soma.
-      C = gera_matriz_aleatoria(linhasA, colunasA, 0, 0)
-      for i in range(linhasA):
-          for j in range(colunasA):
-              # Atualiza a matriz C com os respectivos valores de A e de B
-              C[i][j] = A[i][j] + B[i][j] 
+#### Função utilizada na Questão 7.3.4 ####
+def multiplica_matriz_por_constante(matriz, constante):
+    matriz_resultante = []
+    for i in range(len(matriz)):
+        matriz_resultante.append([])
+        for j in matriz[i]:
+                matriz_resultante[i].append(j*constante)
+    return matriz_resultante
+###########################################
 
-      return C
-
-   ''' Função só chegará neste ponto se número de linhas
-   for diferente do número de colunas'''
-   return "ERRO: A e B não possuem ordem iguais."
-
-# Função da questão 04
-def multipla_matriz_por_constante(k, A):
-   linhas  = len(A)
-   colunas = len(A[1]) 
-   for i in range(linhas):
-       for j in range(colunas):
-           # Multiplica cada elemento de A pela constante k
-           A[i][j] = k * A[i][j] 
-
-   return A
-
-# Função da questão 05
-def ordena_series(series):
-    ordenacao = {}
-    for serie, atores in sorted(series.items()):
-        atores.sort()
-        ordenacao.update({serie: atores})
-    return ordenacao
-	
-# Função da questão 06
+#### Função utilizada na Questão 7.3.5 ####
+def series_protagonistas(dicionario):
+        dicionario2 = {}
+        for serie, protagonista in sorted(dicionario.items()):
+            protagonista.sort()
+            dicionario2.update({serie:protagonista})
+        return dicionario2 
+###########################################        
+        
+#### Função utilizada na Questão 7.3.6 ####
 def obtem_dados_funcionarios():
-   funcionarios = {1: ['Ana', 'F', 'TI', 7, 3200],
-                   2: ['Beatriz', 'F', 'TI', 4, 3720],
-                   3: ['Carla', 'F', 'TI', 1, 2100],
-                   4: ['Daniela','F', 'RH', 2, 3920],
-	   	   5: ['Emílio','M', 'RH', 7, 4235.12],
-		   6: ['Fernando','M', 'Marketing', 7, 1200],
-		   7: ['Gabriela','F', 'Marketing', 8, 7234.89],
-		   8: ['Hernandes','M', 'TI', 6, 4234.12],
-		   9: ['Ítalo','M', 'RH', 13, 13934.23],
-		   10: ['Janaína','F', 'RH', 7, 9341.89]}
-   return funcionarios
+  func = {1: ["Ana", "F", "TI", 7, 3200.00],
+          2: ["Beatriz", "F", "TI", 4, 3720.00],
+          3: ["Carla", "F", "TI", 1, 2100.00],
+          4: ["Daniela", "F", "RH", 2, 3920.00],
+          5: ["Emílio", "M", "RH",7, 4235.12],
+          6: ["Fernando", "M", "Marketing", 7, 1200.00],
+          7: ["Gabriela", "F", "Marketing", 8, 7234.89],
+          8: ["Hernandes", "M", "TI", 6, 4234.12],
+          9: ["Ítalo", "M", "RH", 13, 13934.23],
+          10: ["Janaína", "F", "RH", 7, 9341.89]}
+  return func
+###########################################
 
-# Função da questão 07
-def retorna_qtde_homens_mulheres(cadastro):
-    homens   = 0
-    mulheres = 0
-    for mat, dados in cadastro.items():
-        # Índice com o sexo do funcionário
-        if dados[1] == "M":
-            homens += 1
-        elif dados[1] == "F":
-            mulheres += 1
+#### Função utilizada na Questão 7.3.7 ####
+def retorna_homens_mulheres(dicio_cadastro):
+    h = 0
+    m = 0
+    for nome, dados in dicio_cadastro.items():
+      print(nome, dados)
+      if dados[1].upper() == "F":
+         m += 1
+      else:
+         h += 1
+    return "\nQuantidade de mulheres cadastradas: {} \nQuantidade de homens cadastrados: {}".format(m, h)
+###########################################
 
-    return homens, mulheres
+#### Função utilizada na Questão 7.3.8 ####
+def retorna_tempo_servico(dicionario): 
+    lista_tempo = []
+    dicio_novo = {}
 
-# Função da questão 08
-def retorna_funcionarios_maior5anos(cadastro):
-    qtde_maior5anos = 0
-    for dados in cadastro.values():
-        # Índice com o tempo de serviço do funcionário
+    for nome, dados in dicionario.items():
         if dados[3] > 5:
-            qtde_maior5anos += 1
-        
-    return qtde_maior5anos
+           lista_tempo.append(nome)
 
-# Função da questão 09
+    for numero in lista_tempo:
+        dicio_novo.update({numero: dicionario.get(numero)})
+
+    return dicio_novo
+###########################################
+
+#### Função utilizada na Questão 7.3.9 ####
 def lista_mulheres_por_setor(cadastro, setor):
-    mulheres_setor = {}
-    for mat, dados in cadastro.items():
-        # Índices com o sexo e o setor do funcionário
-        if dados[1] == "F" and dados[2] == setor:
-            mulheres_setor.update({mat: dados})
-        
-    return mulheres_setor
+  lista_chaves = []
+  dicio_novo = {}
 
-# Função da questão 10
-def retorna_media_salarial_por_sexo(cadastro, sexo):
-    soma_salarios = 0
-    registros     = 0
-    for mat, dados in cadastro.items():
-        # Índice com o sexo do funcionário
-        if dados[1] == sexo:
-            soma_salarios += dados[4]
-            registros += 1
+  for nome, dados in cadastro.items():
+    if dados[1] == "F" and dados[2].upper() == setor.upper():
+      lista_chaves.append(nome)
+  
+  for chaves in lista_chaves:
+    dicio_novo.update({chaves: cadastro.get(chaves)})
 
-    if registros > 0:        
-       return soma_salarios / registros
+  return dicio_novo
+###########################################
 
-    # Só chegará nesta linha se nenhum registro for encontrado
-    return 0
+#### Função utilizada na Questão 7.3.10 #####
+def retorna_media_salarial(sexo, cadastro): 
+  lista_salarios = []
+  for nome, dados in cadastro.items():
+    if sexo.upper() == dados[1].upper():
+       lista_salarios.append(dados[4])
 
-
-
+  if len(lista_salarios) == 0:
+     return 0
     
+  return sum(lista_salarios)/len(lista_salarios)
+#############################################
 
 
-    
+
+
 
