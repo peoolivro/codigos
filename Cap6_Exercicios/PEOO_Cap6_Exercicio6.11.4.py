@@ -1,4 +1,4 @@
-# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais Operacionais
+# Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
 # Capítulo: 06
 # Questão.: 6.11.4
 # Autor...: Fábio Procópio
