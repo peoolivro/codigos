@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f571a02-9b54-4d28-9914-9f9393df02a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_7/carro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_7/teste_carro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_1/ingresso.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_1/ingresso.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_1/teste_ingresso.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_1/teste_ingresso.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_2/geometria.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_2/geometria.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_2/teste_retangulo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_2/teste_retangulo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_3/ponto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_3/ponto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_3/teste_ponto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_3/teste_ponto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_4/lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_4/lista.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_4/teste_lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_4/teste_lista.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_5/calculadora.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_5/calculadora.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_5/teste_calculadora.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_5/teste_calculadora.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_6/funcionario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_6/funcionario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cap9_Exercicios/questao_6/teste_funcionario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_6/teste_funcionario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_8/contas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_8/teste_containvestimento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_9/teste_trigonometria.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cap8_Exercicios/questao_9/trigonometria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,19 +17,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_2/geometria.py">
+        <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_9/trigonometria.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="450">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_2/teste_retangulo.py">
+        <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_9/teste_trigonometria.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -81,13 +72,27 @@
         <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_1/ingresso.py" />
         <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_2/geometria.py" />
         <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_2/teste_retangulo.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_3/teste_ponto.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_3/ponto.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_4/teste_lista.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_4/lista.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_5/teste_calculadora.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_5/calculadora.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_6/teste_funcionario.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_6/funcionario.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_7/teste_carro.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_7/carro.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_8/contas.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_8/teste_containvestimento.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_9/teste_trigonometria.py" />
+        <option value="$PROJECT_DIR$/Cap8_Exercicios/questao_9/trigonometria.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2101" />
-    <option name="y" value="144" />
-    <option name="width" value="1400" />
+    <option name="x" value="2375" />
+    <option name="y" value="117" />
+    <option name="width" value="961" />
     <option name="height" value="919" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -112,25 +117,7 @@
               <item name="codigos" type="b2602c69:ProjectViewProjectNode" />
               <item name="codigos" type="462c0819:PsiDirectoryNode" />
               <item name="Cap8_Exercicios" type="462c0819:PsiDirectoryNode" />
-              <item name="questao_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codigos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codigos" type="462c0819:PsiDirectoryNode" />
-              <item name="Cap8_Exercicios" type="462c0819:PsiDirectoryNode" />
-              <item name="questao_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codigos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codigos" type="462c0819:PsiDirectoryNode" />
-              <item name="Cap8_Exercicios" type="462c0819:PsiDirectoryNode" />
-              <item name="questao_4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codigos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codigos" type="462c0819:PsiDirectoryNode" />
-              <item name="Cap8_Exercicios" type="462c0819:PsiDirectoryNode" />
-              <item name="questao_5" type="462c0819:PsiDirectoryNode" />
+              <item name="questao_9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.teste_carro">
+  <component name="RunManager" selected="Python.teste_trigonometria">
     <configuration name="teste_calculadora" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="codigos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,6 +196,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="teste_containvestimento" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="codigos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cap8_Exercicios/questao_8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cap8_Exercicios/questao_8/teste_containvestimento.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="teste_funcionario" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="codigos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="teste_lista" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="teste_trigonometria" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="codigos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,34 +248,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cap9_Exercicios/questao_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cap8_Exercicios/questao_9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cap9_Exercicios/questao_4/teste_lista.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="teste_ponto" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="codigos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cap9_Exercicios/questao_3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cap9_Exercicios/questao_3/teste_ponto.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cap8_Exercicios/questao_9/teste_trigonometria.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.teste_trigonometria" />
+        <item itemvalue="Python.teste_containvestimento" />
         <item itemvalue="Python.teste_carro" />
         <item itemvalue="Python.teste_funcionario" />
         <item itemvalue="Python.teste_calculadora" />
-        <item itemvalue="Python.teste_lista" />
-        <item itemvalue="Python.teste_ponto" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +282,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588338243277</updated>
-      <workItem from="1588338251200" duration="7669000" />
+      <workItem from="1588338251200" duration="10846000" />
     </task>
     <task id="LOCAL-00001" summary="Exercícios propostos do Capítulo 9">
       <created>1588375641312</created>
@@ -304,18 +291,31 @@
       <option name="project" value="LOCAL" />
       <updated>1588375641314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercícios propostos do Capítulo 8">
+      <created>1588379746674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588379746677</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercícios propostos do Capítulo 8">
+      <created>1588379804797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588379804797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7669000" />
+    <option name="totallyTimeSpent" value="10846000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2101" y="144" width="1400" height="919" extended-state="0" />
-    <editor active="true" />
+    <frame x="2375" y="117" width="961" height="919" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36887923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -325,7 +325,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32889965" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5525998" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,7 +342,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercícios propostos do Capítulo 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercícios propostos do Capítulo 9" />
+    <MESSAGE value="Exercícios propostos do Capítulo 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios propostos do Capítulo 8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codigos$teste_ingresso.coverage" NAME="teste_ingresso Coverage Results" MODIFIED="1588373761646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cap9_Exercicios/questao_1" />
@@ -350,80 +351,12 @@
     <SUITE FILE_PATH="coverage/codigos$teste_carro.coverage" NAME="teste_carro Coverage Results" MODIFIED="1588376865239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cap9_Exercicios/questao_7" />
     <SUITE FILE_PATH="coverage/codigos$teste_lista.coverage" NAME="teste_lista Coverage Results" MODIFIED="1588374550135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cap9_Exercicios/questao_4" />
     <SUITE FILE_PATH="coverage/codigos$teste_funcionario.coverage" NAME="teste_funcionario Coverage Results" MODIFIED="1588375547188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cap9_Exercicios/questao_6" />
+    <SUITE FILE_PATH="coverage/codigos$teste_containvestimento.coverage" NAME="teste_containvestimento Coverage Results" MODIFIED="1588383485618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cap8_Exercicios/questao_8" />
+    <SUITE FILE_PATH="coverage/codigos$teste_trigonometria.coverage" NAME="teste_trigonometria Coverage Results" MODIFIED="1588385734713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cap8_Exercicios/questao_9" />
     <SUITE FILE_PATH="coverage/codigos$teste_ponto.coverage" NAME="teste_ponto Coverage Results" MODIFIED="1588374219648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cap9_Exercicios/questao_3" />
     <SUITE FILE_PATH="coverage/codigos$teste_retangulo.coverage" NAME="teste_retangulo Coverage Results" MODIFIED="1588373915186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cap9_Exercicios/questao_2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_3/teste_ponto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_3/ponto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_4/lista.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_4/teste_lista.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_5/teste_calculadora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_5/calculadora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_6/funcionario.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_6/teste_funcionario.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_7/carro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_7/teste_carro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_1/teste_ingresso.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -438,6 +371,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_2/teste_retangulo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_2/geometria.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -445,10 +385,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_2/teste_retangulo.py">
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_3/teste_ponto.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_3/ponto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_4/teste_lista.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_4/lista.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_5/teste_calculadora.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_5/calculadora.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_6/teste_funcionario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_7/teste_carro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_7/carro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_6/funcionario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_8/teste_containvestimento.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_8/contas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_9/trigonometria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap8_Exercicios/questao_9/teste_trigonometria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
