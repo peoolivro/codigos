@@ -1,6 +1,6 @@
 # Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
-# Capítulo: 09
-# Questão.: 9.4.5
+# Capítulo: 08
+# Questão.: 8.4.5
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 30/04/2020
 
