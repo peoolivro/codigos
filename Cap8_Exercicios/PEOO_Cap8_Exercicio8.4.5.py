@@ -4,7 +4,7 @@
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 30/04/2020
 
-from calculadora import Calculadora
+from classes import Calculadora
 
 calc = Calculadora(2, 10)
 

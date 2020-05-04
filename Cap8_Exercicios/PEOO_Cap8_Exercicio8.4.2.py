@@ -4,7 +4,7 @@
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 30/04/2020
 
-from geometria import Retangulo
+from classes import Retangulo
 
 retangulo = Retangulo(12, 6)
 

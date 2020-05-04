@@ -4,7 +4,7 @@
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 02/05/2020
 
-from trigonometria import Trigonometria
+from classes import Trigonometria
 
 ang1 = Trigonometria(30)
 print(ang1)

@@ -4,7 +4,7 @@
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 30/04/2020
 
-from lista import Lista
+from classes import Lista
 
 listagem = Lista([1, 2, 3, 4, 4, 4, 5, 5, 6, 1, 1, 1, 2, 2])
 print(listagem.exibirListaDistinta())

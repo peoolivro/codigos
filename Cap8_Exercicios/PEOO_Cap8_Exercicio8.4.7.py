@@ -4,7 +4,7 @@
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 02/05/2020
 
-from carro import Carro
+from classes import Carro
 
 meuCarro = Carro(12);           # consumo de 12 km/l
 meuCarro.abastecer(40);         # abastece com 40 litros

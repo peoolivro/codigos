@@ -4,7 +4,7 @@
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 30/04/2020
 
-from funcionario import Funcionario
+from classes import Funcionario
 
 joao = Funcionario("João da Silva", 2350.0)
 alex = Funcionario("Alex Torquato", 5000.0)

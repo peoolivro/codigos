@@ -4,7 +4,9 @@
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 30/04/2020
 
-from ponto import Ponto
+# Como já existe a classe Ponto (questão 3), foi criada a classe PontoModificado para a questão 10
+# Contudo, foi criado o alias (apelido) Ponto para simplificar a classe.
+from classes import PontoModificado as Ponto
 
 pA = Ponto("A", 100, 200)
 pB = Ponto("B", 120, 150)

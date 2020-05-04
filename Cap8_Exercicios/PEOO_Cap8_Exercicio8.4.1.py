@@ -4,7 +4,7 @@
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 30/04/2020
 
-from ingresso import Ingresso
+from classes import Ingresso
 
 rockinrio = Ingresso("Rock'n Rio", 300.00)
 python = Ingresso("Python Brasil", 100.00)

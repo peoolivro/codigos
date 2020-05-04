@@ -4,7 +4,7 @@
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 30/04/2020
 
-from ponto import Ponto
+from classes import Ponto
 
 pontos = []
 
