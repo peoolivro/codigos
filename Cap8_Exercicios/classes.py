@@ -4,7 +4,11 @@
 # Data....: 30/04/2020
 # Comentário: Este arquivo contém todas as classes dos exercícios propostos do Capítulo 08 na ordem em que sáo usadas
 
+from math import radians, sin, cos, tan
+
+
 class Ingresso:
+
     def __init__(self, evento, valor):
         self.evento = evento
         self.valor = valor
@@ -13,10 +17,11 @@ class Ingresso:
         return self.valor
 
     def __str__(self):
-        return (f"{self.evento}: R$ {self.valor:.2f}")
+        return f"{self.evento}: R$ {self.valor:.2f}"
 
 
 class Retangulo:
+
     def __init__(self, largura, altura):
         self.largura = largura
         self.altura = altura
@@ -28,17 +33,18 @@ class Retangulo:
         return self.largura * self.altura
 
 
-class Ponto():
+class Ponto:
+
     def __init__(self, nome, x, y):
         self.nome = nome
         self.x = x
         self.y = y
 
     def __str__(self):
-        return (f"{self.nome}: ({self.x}, {self.x})")
+        return f"{self.nome}: ({self.x}, {self.x})"
 
 
-class Lista():
+class Lista:
 
     def __init__(self, itens):
         self.itens = itens
@@ -51,7 +57,8 @@ class Lista():
         return novaLista
 
 
-class Calculadora():
+class Calculadora:
+
     def __init__(self, op1, op2):
         self.op1 = op1
         self.op2 = op2
@@ -73,6 +80,7 @@ class Calculadora():
 
 
 class Funcionario:
+
     def __init__(self, nome, salario):
         self.nome = nome
         self.salario = salario
@@ -82,6 +90,7 @@ class Funcionario:
 
 
 class Carro:
+
     def __init__(self, consumo):
         self.consumo = consumo
         self.combustivel = 0
@@ -99,6 +108,7 @@ class Carro:
 
 
 class ContaInvestimento:
+
     def __init__(self, saldo, taxaJuros):
         self.saldo = saldo
         self.taxaJuros = taxaJuros
@@ -106,8 +116,6 @@ class ContaInvestimento:
     def adicionarJuros(self):
         self.saldo += (self.saldo * self.taxaJuros / 100)
 
-
-from math import radians, sin, cos, tan
 
 class Trigonometria:
 
@@ -125,17 +133,15 @@ class Trigonometria:
         return tan(self.anguloRad)
 
     def __str__(self):
-        return "\n- Ângulo em graus: %d \n" \
-               "- Ângulo em radianos: %f \n" \
-               "- Seno: %f \n" \
-               "- Cosseno: %f \n" \
-               "- Tangente: %f " \
-               % (self.anguloGraus, self.anguloRad, self.seno(),
-                  self.cosseno(), self.tangente())
-
+        return f"\n- Ângulo em graus: {self.anguloGraus} \n" \
+               f"- Ângulo em radianos: {self.anguloRad:.4f} \n" \
+               f"- Seno: {self.seno():.4f} \n" \
+               f"- Cosseno: {self.cosseno():.4f} \n" \
+               f"- Tangente: {self.tangente():.4f} "
 
 # Como já existe a classe Ponto (questão 3), foi criada a classe PontoModificado para a questão 10
 class PontoModificado():
+
     def __init__(self, nome, x, y):
         self.nome = nome
         self.x = x
@@ -146,4 +152,4 @@ class PontoModificado():
         return sqrt((self.x - p.x)**2 + (self.y - p.y)**2)
 
     def __str__(self):
-        return ("%s: (%d, %d)" % (self.nome, self.x, self.y))
+        return f"{self.nome}: ({self.x}, {self.y})"
