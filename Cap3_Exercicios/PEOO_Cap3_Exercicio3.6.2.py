@@ -13,19 +13,17 @@ print("3. Cubo do menor número")
 op = int(input("Escolha uma opção: "))
 
 if op < 1 or op > 3:
-   print("\nOpção inválida.")
+    print("\nOpção inválida.")
 elif op == 1:
-   media = (num1 * 2 + num2 * 3) / 5
-   print(f"\nMédia ponderada calculada: {media:.2f}.")
+    media = (num1 * 2 + num2 * 3) / 5
+    print(f"\nMédia ponderada calculada: {media:.2f}.")
 elif op == 2:
-   quadrado = (num1 + num2) ** 2
-   print(f"\nQuadrado da soma dos números: {quadrado:.2f}.")      
+    quadrado = (num1 + num2) ** 2
+    print(f"\nQuadrado da soma dos números: {quadrado:.2f}.")
 else:
-   if num1 < num2:      
-      cubo = num1 ** 3
-      print(f"\n{num1:.2f} é menor número e o seu cubo é {cubo:.2f}.")
-   else:
-      cubo = num2 ** 3
-      print(f"\n{num2:.2f} é menor número e o seu cubo é {cubo:.2f}.")   
-   
-         
+    if num1 < num2:
+        cubo = num1 ** 3
+        print(f"\n{num1:.2f} é menor número e o seu cubo é {cubo:.2f}.")
+    else:
+        cubo = num2 ** 3
+        print(f"\n{num2:.2f} é menor número e o seu cubo é {cubo:.2f}.")

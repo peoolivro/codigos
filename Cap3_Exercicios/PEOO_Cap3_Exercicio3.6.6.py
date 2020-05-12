@@ -6,9 +6,9 @@
 
 sobrenome = input("Informe o sobrenome de um(a) apresentador(a): ")
 
-if sobrenome.upper() == "PINHEIRO" or sobrenome.upper() == "ARAÚJO"
+if sobrenome.upper() == "PINHEIRO" or sobrenome.upper() == "ARAÚJO":
    print("Bom Dia Nação")   
-elif sobrenome.upper() == "BONNER" or sobrenome.upper() == "VASCONCELOS"
+elif sobrenome.upper() == "BONNER" or sobrenome.upper() == "VASCONCELOS":
    print("Jornal Brasileiro")
 else:
    print("Apresentador desconhecido(a).")

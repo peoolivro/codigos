@@ -16,4 +16,3 @@ for x in range(num_termo - 1):
    print(termo)
    termo_anterior = termo
 print("*" * 38)
-     

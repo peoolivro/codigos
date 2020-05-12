@@ -6,5 +6,5 @@
 
 from math import pi
 raio = float(input("Raio da circunferência (cm): "))
-cump = 2 * pi * raio
-print(f"Cumprimento = {cump:.2f} cm")
+comp = 2 * pi * raio
+print(f"Comprimento = {comp:.2f} cm")

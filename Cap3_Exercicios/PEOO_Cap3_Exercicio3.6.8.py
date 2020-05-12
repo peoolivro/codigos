@@ -23,4 +23,3 @@ else:
    x2 = (-b - sqrt(delta)) / (2 * a)
    print(f"x1 = {x1:.2f}")
    print(f"x2 = {x2:.2f}")
-   
