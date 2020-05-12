@@ -9,8 +9,8 @@ from MinhasFuncoes import *
 series_person = {}
 while True:
     serie = input('Informe o nome de uma série: ')
-    prot1 = input('Informe o nome do 1º protagonista de {}: '.format(serie))
-    prot2 = input('Informe o nome do 2º protagonista de {}: '.format(serie))
+    prot1 = input(f'Informe o nome do 1º protagonista de {serie}: ')
+    prot2 = input(f'Informe o nome do 2º protagonista de {serie}: ')
     series_person.update({serie:[prot1, prot2]})
     resp = input('Deseja continuar [S/N]? ')
     if resp.upper() == 'N':

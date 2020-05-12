@@ -6,6 +6,6 @@
 
 from MinhasFuncoes import *
 cadastro = obtem_dados_funcionarios()
-for matricula, dados in tempo_serviço(cadastro).items():
+for matricula, dados in retorna_tempo_serviço(cadastro).items():
   print(f"{matricula}: {dados}")
 
