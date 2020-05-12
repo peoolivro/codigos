@@ -25,7 +25,3 @@ while True:
       print("Código inválido.")
    
 print(f"Médicos com salários superiores a R$ 4.500,00: {qtde_medico_sal_maior_4500}")
-
-   
-
-   

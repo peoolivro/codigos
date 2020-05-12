@@ -15,7 +15,7 @@ while True:
    idade = int(input("Idade: "))
    if idade < 0: #Quando idade negativa, laço será interrompido
       break
-                          
+
    if idade < mais_novo:   
       mais_novo = idade
    elif idade > mais_velho:
