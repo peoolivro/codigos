@@ -18,4 +18,4 @@ while True:
       break
 
 for nome, imc in sorted(turma.items()):
-	print("{}: {:.2f}".format(nome, imc))
+	print(f"{nome}: {imc:.2f}")

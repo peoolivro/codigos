@@ -17,7 +17,7 @@ while True:
 	
 serie = input("Informe o nome de uma série: ")
 if serie in series: 
-    print("Atores: {} e {}\n".format(series.get(serie)[0], series.get(serie)[1]))
+    print(f"Atores: {series.get(serie)[0]} e {series.get(serie)[1]}\n")
 else:
     print("Série não cadastrada.")
     

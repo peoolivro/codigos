@@ -17,6 +17,6 @@ while True:
 	
 for serie, atores in sorted(series.items()):
     atores = sorted(atores)
-    print("Série: {}".format(serie))
-    print("  Atores: {} e {}\n".format(atores[0], atores[1]))
+    print(f"Série: {serie}")
+    print(f"  Atores: {atores[0]} e {atores[1]}\n")
     

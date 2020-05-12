@@ -15,7 +15,7 @@ for cod, prod in produtos.items():
       prod[1] *= 0.90
 	
 for cod, prod in produtos.items():
-   print("Código: {}".format(cod))
-   print("Nome..: {}".format(prod[0]))
-   print("R$....: {:.2f}\n".format(prod[1]))
+   print(f"Código: {cod}")
+   print(f"Nome..: {prod[0]}")
+   print(f"R$....: {prod[1]:.2f}\n")
       

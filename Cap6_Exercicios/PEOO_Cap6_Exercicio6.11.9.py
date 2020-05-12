@@ -17,11 +17,11 @@ funcionarios = {1: ['Ana', 'F', 'TI', 7, 3200],
 
 for mat, dados in funcionarios.items():
    if dados[1] == "F" and dados[2] == "TI" and dados[4] > 3000:
-      print("Matrícula: {}".format(mat))
-      print("Nome.....: {}".format(dados[0]))
-      print("Sexo.....: {}".format(dados[1]))
-      print("Setor....: {}".format(dados[2]))
-      print("Tempo....: {}".format(dados[3]))
-      print("Salário..: R$ {:.2f}\n".format(dados[4]))
+      print(f"Matrícula: {mat}")
+      print(f"Nome.....: {dados[0]}")
+      print(f"Sexo.....: {dados[1]}")
+      print(f"Setor....: {dados[2]}")
+      print(f"Tempo....: {dados[3]}")
+      print(f"Salário..: R$ {dados[4]:.2f}\n")
 	  
 	

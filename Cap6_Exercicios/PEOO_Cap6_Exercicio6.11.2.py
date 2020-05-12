@@ -17,4 +17,4 @@ while True:
       break
 
 for razao, compras in sorted(clientes.items(), reverse = True, key=itemgetter(1)):
-	print("{}: R$ {:.2f}".format(razao, compras))
+	print("{razao}: R$ {compras:.2f}")

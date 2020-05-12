@@ -30,9 +30,9 @@ for num_voo in voos_REC:
 
 if len(voos) > 0:	
    for num_voo, trecho in voos.items():
-      print("Voo: {}".format(num_voo))
-      print("Origem: {}".format(trecho[0]))
-      print("Destino: {}\n".format(trecho[1]))
+      print(f"Voo: {num_voo}")
+      print(f"Origem: {trecho[0]}")
+      print(f"Destino: {trecho[1]}\n")
 else:
    print("Não há voos cadastrados.")
 

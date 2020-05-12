@@ -21,4 +21,4 @@ for trecho in voos.values():
     if trecho[0].upper() == "NATAL":
        voos_NAT += 1	
 
-print("Voos provindos de Natal: {}".format(voos_NAT))
+print(f"Voos provindos de Natal: {voos_NAT}")
