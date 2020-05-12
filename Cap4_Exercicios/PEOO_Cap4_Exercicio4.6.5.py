@@ -42,10 +42,10 @@ for nadador in range(2, 8):
    if 12 <= tempo <= 15:
       tempo_12_15s += 1
 
-print("{} é o melhor nadador com {} seg.".format(melhor_nadador, melhor_tempo))
-print("{} é o pior nadador com {} seg.".format(pior_nadador, pior_tempo))
+print(f"{melhor_nadador} é o melhor nadador com {melhor_tempo} seg.")
+print(f"{pior_nadador} é o pior nadador com {pior_tempo} seg.")
 media = soma_tempo / 7
-print("Média dos tempos = {:.2f} seg.".format(media))
-print("Atletas entre 12 seg e 15 seg: {}".format(tempo_12_15s))
+print(f"Média dos tempos = {media:.2f} seg.")
+print(f"Atletas entre 12 seg e 15 seg: {tempo_12_15s}")
 
       

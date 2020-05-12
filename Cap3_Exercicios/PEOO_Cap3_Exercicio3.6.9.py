@@ -4,7 +4,7 @@
 # Autor...: Fábio Procópio
 # Data....: 31/05/2019
 
-print("{} {} {}".format("*" * 14, "PROMOÇÃO BLACK FRIDAY", "*" * 15))
+print(f"{'*'*14} PROMOÇÃO BLACK FRIDAY {'*'*15}")
 print("Código     Condição de Pagamento         Desconto(%)")
 print("1          À vista (em espécie)                   15")
 print("2          Cartão de débito                       10")
@@ -17,10 +17,10 @@ if opcao < 1 or opcao > 3:
    print("Forma de pagamento inválida.")
 elif opcao == 1:
    valor_final = valor * 0.85 #(100 - 15)/100 = 0.85 (15% de desconto)
-   print("Valor final: R$ {:.2f}".format(valor_final))
+   print(f"Valor final: R$ {valor_final:.2f}")
 elif opcao == 2:  
    valor_final = valor * 0.90 #(100 - 10)/100 = 0.90 (10% de desconto)
-   print("Valor final: R$ {:.2f}".format(valor_final))
+   print(f"Valor final: R$ {valor_final:.2f}")
 else:
    valor_final = valor * 0.95 #(100 - 95)/100 = 0.95 (5% de desconto)
-   print("Valor final: R$ {:.2f}".format(valor_final))
+   print(f"Valor final: R$ {valor_final:.2f}")

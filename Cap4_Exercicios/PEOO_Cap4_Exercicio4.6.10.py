@@ -21,6 +21,6 @@ for i in range(num_alunos):
    else:
       prova_final += 1
                           
-print("\nAprovados..: {:.2f}%".format((aprovado / num_alunos) * 100))
-print("Prova final: {:.2f}%".format((prova_final / num_alunos) * 100))
-print("Reprovados.: {:.2f}%".format((reprovado / num_alunos) * 100))
+print(f"\nAprovados..: {((aprovado / num_alunos) * 100):.2f}")
+print(f"Prova final: {((prova_final / num_alunos) * 100):.2f}")
+print(f"Reprovados.: {((reprovado / num_alunos) * 100):.2f}")

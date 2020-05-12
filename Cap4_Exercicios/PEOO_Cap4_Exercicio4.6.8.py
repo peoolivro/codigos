@@ -31,7 +31,7 @@ media = 0
 if qtde_nutricionista > 0:
    media = total_sal_nutricionista / qtde_nutricionista
    
-print("Média salarial de nutricionistas: R$ {:.2f}".format(media))
+print(f"Média salarial de nutricionistas: R$ {media:.2f}")
 
    
 

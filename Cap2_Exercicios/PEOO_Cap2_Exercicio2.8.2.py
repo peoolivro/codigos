@@ -7,4 +7,4 @@
 from math import pi
 raio = float(input("Raio da circunferência (cm): "))
 cump = 2 * pi * raio
-print("Cumprimento = {:.2f}cm".format(cump))
+print(f"Cumprimento = {cump:.2f} cm")

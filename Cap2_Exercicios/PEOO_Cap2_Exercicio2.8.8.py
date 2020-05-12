@@ -8,4 +8,4 @@ sal_minimo   = float(input("Informe o valor do salário mínimo atual (R$): "))
 sal_usuario  = float(input("Informe o valor do seu salário mensal (R$): "))
 qtd_salarios = sal_usuario / sal_minimo
 
-print("Você recebe aproximadamente {:.2f} salário(s) mínimo(s).".format(qtd_salarios))
+print(f"Você recebe aproximadamente {qtd_salarios:.2f} salário(s) mínimo(s).")

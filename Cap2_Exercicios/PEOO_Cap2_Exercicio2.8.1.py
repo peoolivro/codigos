@@ -7,4 +7,4 @@
 base = float(input("Base do triângulo (cm): "))
 alt  = float(input("Altura do triângulo (cm): "))
 area = (base * alt) / 2
-print("Área = {:.2f} cm^2".format(area))
+print(f"Área = {area:.2f} cm²")

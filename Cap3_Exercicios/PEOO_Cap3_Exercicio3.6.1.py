@@ -7,7 +7,7 @@
 num = int(input("Digite um número: "))
 if num %2 == 0:
    quadrado = num ** 2
-   print("{} é par e o seu quadrado é {}.".format(num, quadrado))
+   print(f"{num} é par e o seu quadrado é {quadrado}.")
 else:
    cubo = num ** 3
-   print("{} é ímpar e o seu cubo é {}.".format(num, cubo))
+   print(f"{num} é ímpar e o seu cubo é {cubo}.")

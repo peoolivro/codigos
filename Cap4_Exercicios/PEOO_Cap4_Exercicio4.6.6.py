@@ -30,7 +30,7 @@ while True:
    soma_estatura += estatura
    # cont e soma_estatura serão usadas para calcular a média
 
-print("{}m é a maior estatura.".format(maior))
-print("{}m é a menor estatura.".format(menor))
+print(f"{maior}m é a maior estatura.")
+print(f"{menor}m é a menor estatura.")
 media = soma_estatura / cont
-print("Média das estaturas = {:.2f}m".format(media))
+print(f"Média das estaturas = {media:.2f}m")

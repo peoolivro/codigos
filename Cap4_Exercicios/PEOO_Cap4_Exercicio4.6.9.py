@@ -24,7 +24,7 @@ while True:
    else:
       print("Código inválido.")
    
-print("Médicos com salários superiores a R$ 4.500,00: {}".format(qtde_medico_sal_maior_4500))
+print(f"Médicos com salários superiores a R$ 4.500,00: {qtde_medico_sal_maior_4500}")
 
    
 

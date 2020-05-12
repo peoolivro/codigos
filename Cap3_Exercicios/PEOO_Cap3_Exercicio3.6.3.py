@@ -15,11 +15,11 @@ if opcao < 1 or opcao > 3:
    print("Opção inválida.")
 elif opcao == 3:
    operador = int(input("Informe um bit: "))
-   print("NOT {} = {}".format(operador, not(operador)))
+   print(f"NOT {operador} = {not(operador)}")
 else:   
    operador1 = int(input("Informe o primeiro bit: "))
    operador2 = int(input("Informe o segundo bit: "))
    if opcao == 1:
-      print("{} AND {} = {}".format(operador1, operador2, operador1 and operador2))
+      print(f"{operador1} AND {operador2} = {operador1 and operador2}")
    else:
-      print("{} OR {} = {}".format(operador1, operador2, operador1 or operador2))
+      print(f"{operador1} OR {operador2} = {operador1 or operador2}")

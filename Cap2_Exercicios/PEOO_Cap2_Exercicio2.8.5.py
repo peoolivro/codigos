@@ -14,4 +14,4 @@ x2 = float(input("Digite x2: "))
 y2 = float(input("Digite y2: "))
 
 d = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2))
-print("Distância entre P1 e P2 = {:.2f}".format(d))
+print(f"Distância entre P1 e P2 = {d:.2f}")

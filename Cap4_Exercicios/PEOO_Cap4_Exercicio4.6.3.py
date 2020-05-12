@@ -24,6 +24,6 @@ for x in range(4):
    soma_preco += preco
 
 media = soma_preco / 5
-print("{} é o medicamento mais barato e custa R$ {}.".format(mais_barato, menor_preco))
-print("Média dos preços: R$ {:.2f}.".format(media))
+print(f"{mais_barato} é o medicamento mais barato e custa R$ {menor_preco:.2f}.")
+print(f"Média dos preços: R$ {media:.2f}.")
      

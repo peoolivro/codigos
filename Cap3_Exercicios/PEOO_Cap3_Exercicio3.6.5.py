@@ -18,18 +18,18 @@ elif cargo == 1:
          salario = salario * 1.3 ou
          salario = salario + salario * 0.3'''
    salario *= 1.3
-   print("Novo salário: R$ {:.2f}".format(salario))
+   print(f"Novo salário: R$ {salario:.2f}")
 elif cargo == 2:
    '''Acréscimo de 30% sobre o salário atual. Mesmo que:
          salario = salario * 1.2 ou
          salario = salario + salario * 0.2'''
    salario *= 1.2
-   print("Novo salário: R$ {:.2f}".format(salario))
+   print(f"Novo salário: R$ {salario:.2f}")
 else:
    '''Acréscimo de 30% sobre o salário atual. Mesmo que:
          salario = salario * 1.15 ou
          salario = salario + salario * 0.15'''
    salario *= 1.15
-   print("Novo salário: R$ {:.2f}".format(salario))
+   print(f"Novo salário: R$ {salario:.2f}")
 
 

@@ -9,7 +9,7 @@ num_termo = int(input("Informe o número de termos da P.A.: "))
 razao     = int(input("Informe a razão da P.A.: "))
 
 termo_anterior = termo1
-print("***** {} primeiros termos da P.A. *****".format(num_termo))
+print(f"***** {num_termo} primeiros termos da P.A. *****")
 print(termo1)
 for x in range(num_termo - 1):
    termo          = termo_anterior + razao

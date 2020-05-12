@@ -10,5 +10,5 @@ num2 = float(input("Digite o 2º número: "))
 soma = num1 + num2
 prod = num1 * num2
 
-print("Soma entre os dois números é {:.2f}".format(soma))
-print("Produto entre os dois números é {:.2f}".format(prod))
+print(f"Soma entre os dois números é {soma:.2f}")
+print(f"Produto entre os dois números é {prod:.2f}")

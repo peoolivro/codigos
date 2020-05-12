@@ -12,5 +12,5 @@ num2 = int(input("Digite o segundo número: "))
 cubo      = pow(num2, 3)
 media_geo = sqrt(num1 * num2)
 
-print("\nCubo de {} é {}".format(num2, cubo))
-print("Média geométrica entre {} e {} é {:.2f}".format(num1, num2, media_geo))
+print(f"\nCubo de {num2} é {cubo}")
+print(f"Média geométrica entre {num1} e {num2} é {media_geo:.2f}")

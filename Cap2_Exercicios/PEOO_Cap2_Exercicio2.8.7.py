@@ -13,4 +13,4 @@ tot_vendas = float(input("Informe o valor total das vendas do corretor (R$): "))
 
 sal_final  = sal_base + comissao * qtd_vendas + tot_vendas * 0.05
 
-print("Salário final de {} é R$ {:.2f}".format(corretor, sal_final))
+print(f"Salário final de {corretor} é R$ {sal_final:.2f}")

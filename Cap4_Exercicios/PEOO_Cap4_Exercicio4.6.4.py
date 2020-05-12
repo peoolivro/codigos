@@ -16,7 +16,7 @@ while erros < 3:
       #Ainda há tentativas
       if erros < 3:
          #O comando "3 - erros" significa 3 tentativas - a quantidade de erros
-         print("Senha incorreta! Você ainda tem {} tentativa(s).".format(3 - erros))
+         print(f"Senha incorreta! Você ainda tem {3 - erros} tentativa(s).")
       else:
          print("Sua senha foi bloqueada! Por favor, dirija-se a um de nossos caixa.")
          break

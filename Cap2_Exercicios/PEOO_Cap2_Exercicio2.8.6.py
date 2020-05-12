@@ -11,4 +11,4 @@ c = float(input("Digite o valor de c: "))
 
 delta = b ** 2 - 4 * a * c
 
-print("Delta = {:.2f}".format(delta))
+print(f"Delta = {delta:.2f}")

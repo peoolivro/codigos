@@ -16,16 +16,16 @@ if op < 1 or op > 3:
    print("\nOpção inválida.")
 elif op == 1:
    media = (num1 * 2 + num2 * 3) / 5
-   print("\nMédia ponderada calculada: {:.2f}.".format(media))
+   print(f"\nMédia ponderada calculada: {media:.2f}.")
 elif op == 2:
    quadrado = (num1 + num2) ** 2
-   print("\nQuadrado da soma dos números: {:.2f}.".format(quadrado))      
+   print(f"\nQuadrado da soma dos números: {quadrado:.2f}.")      
 else:
    if num1 < num2:      
       cubo = num1 ** 3
-      print("\n{:.2f} é menor número e o seu cubo é {:.2f}.".format(num1, cubo))
+      print(f"\n{num1:.2f} é menor número e o seu cubo é {cubo:.2f}.")
    else:
       cubo = num2 ** 3
-      print("\n{:.2f} é menor número e o seu cubo é {:.2f}.".format(num2, cubo))   
+      print(f"\n{num2:.2f} é menor número e o seu cubo é {cubo:.2f}.")   
    
          
