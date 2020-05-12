@@ -13,7 +13,7 @@ class Ingresso:
         return self.valor
 
     def __str__(self):
-        return ("%s: R$ %.2f" % (self.evento, self.valor))
+        return (f"{self.evento}: R$ {self.valor:.2f}")
 
 
 class Retangulo:
@@ -35,7 +35,7 @@ class Ponto():
         self.y = y
 
     def __str__(self):
-        return ("%s: (%d, %d)" % (self.nome, self.x, self.y))
+        return (f"{self.nome}: ({self.x}, {self.x})")
 
 
 class Lista():
@@ -90,10 +90,10 @@ class Carro:
         self.combustivel += litros
 
     def exibirCombustivel(self):
-        print('Combustível: %.1f litros' % self.combustivel)
+        print(f'Combustível: {self.combustivel:.1f} litros')
 
     def andar(self, distancia):
-        print("Carro andou %d Km" % distancia)
+        print(f"Carro andou {distancia} Km")
         litrosGastos = distancia / self.consumo
         self.combustivel -= litrosGastos
 

@@ -15,12 +15,12 @@ pD = Ponto("D", 199,  54)
 
 print(pA)
 print(pB)
-print("Distância entre %s e %s: %.2f \n" % (pA.nome, pB.nome, pA.distancia(pB)))
+print(f"Distância entre {pA.nome} e {pB.nome}: {pA.distancia(pB):.2f} \n")
 
 print(pA)
 print(pD)
-print("Distância entre %s e %s: %.2f \n" % (pA.nome, pD.nome, pA.distancia(pD)))
+print(f"Distância entre {pA.nome} e {pD.nome}: {pA.distancia(pD):.2f} \n")
 
 print(pB)
 print(pC)
-print("Distância entre %s e %s: %.2f \n" % (pB.nome, pC.nome, pB.distancia(pC)))
+print(f"Distância entre {pB.nome} e {pC.nome}: {pB.distancia(pC):.2f} \n")

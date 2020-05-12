@@ -8,5 +8,5 @@ from classes import Retangulo
 
 retangulo = Retangulo(12, 6)
 
-print('Perímetro: %.1f' % retangulo.calcularPerimetro())
-print('Área: %.1f' % retangulo.calcularArea())
+print(f'Perímetro: {retangulo.calcularPerimetro():.1f}')
+print(f'Área: {retangulo.calcularArea():.1f}')

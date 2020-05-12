@@ -8,8 +8,8 @@ from classes import Calculadora
 
 calc = Calculadora(2, 10)
 
-print("%d + %d = %d" % (calc.op1, calc.op2, calc.somar()))
-print("%d - %d = %d" % (calc.op1, calc.op2, calc.subtrair()))
-print("%d * %d = %d" % (calc.op1, calc.op2, calc.multiplicar()))
-print("%d / %d = %.2f" % (calc.op1, calc.op2, calc.dividir()))
-print("%d elevado a %d = %d" % (calc.op1, calc.op2, calc.potencia()))
+print(f"{calc.op1} + {calc.op2} = {calc.somar()}")
+print(f"{calc.op1} - {calc.op2} = {calc.subtrair()}")
+print(f"{calc.op1} * {calc.op2} = {calc.multiplicar()}")
+print(f"{calc.op1} / {calc.op2} = {calc.dividir():.2f}")
+print(f"{calc.op1} elevado a {calc.op2} = {calc.potencia()}")

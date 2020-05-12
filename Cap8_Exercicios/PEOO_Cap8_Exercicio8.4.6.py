@@ -9,8 +9,8 @@ from classes import Funcionario
 joao = Funcionario("João da Silva", 2350.0)
 alex = Funcionario("Alex Torquato", 5000.0)
 
-print(("Salário de %s: R$ %.2f" % (joao.nome, joao.salario)))
-print(("Aumento de 20%%: R$ %.2f" % (joao.aumentarSalario(20))))
+print(f"Salário de {joao.nome}: R$ {joao.salario:.2f}")
+print(f"Aumento de 20%%: R$ {joao.aumentarSalario(20):.2f}")
 
-print(("\nSalário de %s: R$ %.2f" % (alex.nome, alex.salario)))
-print(("Aumento de 50%%: R$ %.2f" % (alex.aumentarSalario(50))))
+print(f"\nSalário de {alex.nome}: R$ {alex.salario:.2f}")
+print(f"Aumento de 50%%: R$ {alex.aumentarSalario(50):.2f}")
