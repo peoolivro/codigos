@@ -7,14 +7,14 @@ from operator import itemgetter
 
 clientes = {}
 while True:
-   razao   = input("\nNome: ")
-   compras = float(input("Compras: R$ "))
-   
-   clientes.update({razao: compras})
-   resp = input("Deseja continuar [S|N]? ")
-   if resp == "n" or resp == "N":
-      print("\n")    
-      break
+    razao = input("\nNome: ")
+    compras = float(input("Compras: R$ "))
 
-for razao, compras in sorted(clientes.items(), reverse = True, key=itemgetter(1)):
-	print("{razao}: R$ {compras:.2f}")
+    clientes.update({razao: compras})
+    resp = input("Deseja continuar [S|N]? ")
+    if resp == "n" or resp == "N":
+        print("\n")
+        break
+
+for razao, compras in sorted(clientes.items(), reverse=True, key=itemgetter(1)):
+    print(f"{razao}: R$ {compras:.2f}")

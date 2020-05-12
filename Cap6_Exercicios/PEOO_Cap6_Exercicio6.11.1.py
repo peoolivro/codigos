@@ -6,16 +6,16 @@
 turma = {}
 
 while True:
-   nome = input("\nNome: ")
-   peso = float(input("Peso (em Kg): "))
-   alt  = float(input("Altura (em m): "))
-   IMC  = peso / pow(alt, 2)
-	
-   turma.update({nome: IMC})
-   resp = input("Deseja continuar [S|N]? ")
-   if resp == "n" or resp == "N":
-      print("\n")    
-      break
+    nome = input("\nNome: ")
+    peso = float(input("Peso (em Kg): "))
+    alt = float(input("Altura (em m): "))
+    IMC = peso / pow(alt, 2)
+
+    turma.update({nome: IMC})
+    resp = input("Deseja continuar [S|N]? ")
+    if resp == "n" or resp == "N":
+        print("\n")
+        break
 
 for nome, imc in sorted(turma.items()):
-	print(f"{nome}: {imc:.2f}")
+    print(f"{nome}: {imc:.2f}")
