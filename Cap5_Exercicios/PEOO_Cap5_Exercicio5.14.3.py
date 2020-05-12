@@ -14,6 +14,6 @@ while True:
     if resp.upper() == "N":
         break
 
-random.shuffle(RIFA)           #Embaralha a lista
-sorteado = random.choice(RIFA) #Sorteia aleatoriamente um elemento
+random.shuffle(RIFA)  # Embaralha a lista
+sorteado = random.choice(RIFA)  # Sorteia aleatoriamente um elemento
 print(f"{sorteado} foi o(a) sorteado(a)!")
