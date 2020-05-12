@@ -16,4 +16,4 @@ while True:
 
 random.shuffle(RIFA)           #Embaralha a lista
 sorteado = random.choice(RIFA) #Sorteia aleatoriamente um elemento
-print("{} foi o(a) sorteado(a)!".format(sorteado))
+print(f"{sorteado} foi o(a) sorteado(a)!")

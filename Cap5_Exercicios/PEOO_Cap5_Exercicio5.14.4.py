@@ -21,5 +21,5 @@ else:
    fatorial = 1 #1 é o valor que nunca alterará o produto
    for n in range(2, elemento_central + 1):
        fatorial *= n #fatorial = fatorial * n
-   print("Lista: ", L)
-   print("Portanto, {}! = {}".format(elemento_central, fatorial))
+   print(f"Lista: {L}")
+   print(f"Portanto, {elemento_central}! = {fatorial}")
