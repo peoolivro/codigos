@@ -11,8 +11,8 @@ sexo = input("Digite seu sexo: ")
 media = retorna_media_salarial(sexo, cadastro)
 
 if sexo.upper() == "F":
-  print("Média salarial das mulheres: R$ {:.2f}".format(media))
+  print(f"Média salarial das mulheres: R$ {media:.2f}")
 elif sexo.upper() == "M":
-  print("Média salarial dos homens: R$ {:.2f}".format(media))
+  print(f"Média salarial dos homens: R$ {media:.2f}")
 else:
   print('ERRO: sexo correspondente não encontrado.')

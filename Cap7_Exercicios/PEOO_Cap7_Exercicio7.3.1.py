@@ -15,16 +15,16 @@ escolha = int(input('Escolha uma opção: '))
 if escolha == 1:
     raio = float(input('Informe o raio: '))
     area = calcula_area_circulo(raio)
-    print('Área do círculo: {:.2f}'.format(area))
+    print(f'Área do círculo: {area:.2f}')
 elif escolha == 2:
     base = float(input('Informe a base: '))
     altura = float(input('Informe a altura: '))
     area = calcula_area_triangulo(base, altura)
-    print('Área do triângulo: {:.2f}'.format(area))
+    print(f'Área do triângulo: {area:.2f}')
 elif escolha == 3:
     base = float(input('Informe a base: '))
     altura = float(input('Informe a altura: '))
     area = calcula_area_retangulo(base, altura)
-    print('Área do retângulo: {:.2f}'.format(area))
+    print(f'Área do retângulo: {area:.2f}')
 else:
     print('ERRO: não foi possível encontrar a figura informada.')

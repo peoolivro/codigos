@@ -18,8 +18,8 @@ while True:
     
 print('Dicionário original: ')
 for serie, prot in series_person.items():
-    print('Protagonista de {}: {} e {}'.format(serie, prot[0], prot[1]))
+    print(f'Protagonista de {serie}: {prot[0]} e {prot[1]}')
 
 print('\nDicionário ordenado alfabeticamente: ')
 for serie, prot in series_protagonistas(series_person).items():
-    print('Protagonista de {}: {} e {}'.format(serie, prot[0], prot[1]))
+    print(f'Protagonista de {serie}: {prot[0]} e {prot[1]}')
