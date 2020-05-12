@@ -86,7 +86,7 @@ def retorna_homens_mulheres(dicio_cadastro):
          m += 1
       else:
          h += 1
-    return "\nQuantidade de mulheres cadastradas: {} \nQuantidade de homens cadastrados: {}".format(m, h)
+    return f"\nQuantidade de mulheres cadastradas: {m} \nQuantidade de homens cadastrados: {h}")
 ###########################################
 
 #### Função utilizada na Questão 7.3.8 ####
