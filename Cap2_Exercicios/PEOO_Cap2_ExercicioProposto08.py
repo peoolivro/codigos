@@ -1,6 +1,6 @@
 # Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
 # Capítulo: 02
-# Questão.: 2.8.8
+# Questão.: Exercício Proposto 8
 # Autor...: Fábio Procópio
 # Data....: 18/02/2019
 
