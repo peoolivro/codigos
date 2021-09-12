@@ -1,6 +1,6 @@
 # Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
 # Capítulo: 06
-# Questão.: 6.11.4
+# Questão.: Exercício Proposto 5
 # Autor...: Fábio Procópio
 # Data....: 03/06/2019
 
@@ -16,27 +16,16 @@ while True:
       print("\n")    
       break
 
-voos_REC = []
-for num_voo, trecho in voos.items():
-    if trecho[1].upper() == "RECIFE":
-       # Por que não usar a instrução voos.pop(num_voo)?
-       # Não é possível remover elementos de um dicionário enquanto ele
-       # estiver sendo percorrido
-       voos_REC.append(num_voo)
-       #voos.pop(num_voo)
-
-for num_voo in voos_REC:
-    voos.pop(num_voo)
-
-if len(voos) > 0:	
+voo = input("Qual voo deseja alterar? ")
+origem = input("Nova origem: ")
+dest   = input("Novo destino: ")
+if voo in voos:
+   voos.update({numero: [origem, dest]})
+   print("Voo alterado com sucesso.\n")
+	
    for num_voo, trecho in voos.items():
       print(f"Voo: {num_voo}")
       print(f"Origem: {trecho[0]}")
       print(f"Destino: {trecho[1]}\n")
 else:
-   print("Não há voos cadastrados.")
-
-
-
-
-         
+   print("Voo não cadastrado.")

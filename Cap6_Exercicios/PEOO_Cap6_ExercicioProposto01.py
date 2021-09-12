@@ -1,6 +1,6 @@
 # Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
 # Capítulo: 06
-# Questão.: 6.11.1
+# Questão.: Exercício Proposto 1
 # Autor...: Fábio Procópio
 # Data....: 03/06/2019
 turma = {}
