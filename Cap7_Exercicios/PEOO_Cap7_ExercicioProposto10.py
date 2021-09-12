@@ -1,6 +1,6 @@
 # Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
 # Capítulo: 07
-# Questão.: 7.3.10
+# Questão.: Exercício Proposto 10
 # Autor...: Emanuel Lázaro
 # Data....: 29/10/2019
 

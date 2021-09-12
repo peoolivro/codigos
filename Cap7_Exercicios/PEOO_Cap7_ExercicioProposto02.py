@@ -1,6 +1,6 @@
 # Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
 # Capítulo: 07
-# Questão.: 7.3.4
+# Questão.: Exercício Proposto 2
 # Autor...: Emanuel Lázaro
 # Data....: 29/10/2019
 
@@ -11,6 +11,11 @@ colunas = int(input('Informe a quantidade de colunas da matriz: '))
 intervalo_inicial = int(input('Informe o intervalo inicial: '))
 intervalo_final = int(input('Informe o intervalo final: '))
 
-matriz = gera_matriz_aleatoria(linhas, colunas, intervalo_inicial, intervalo_final)
-constante = int(input('Informe a constante que multiplicará a matriz gerada: '))
-print(f'Matriz gerada: {matriz} \nMatriz C (k * A): {multiplica_matriz_por_constante(matriz, constante)}')
+M = gera_matriz_aleatoria(linhas, colunas, intervalo_inicial, intervalo_final)
+print(f'Matriz gerada: {M}')
+
+if len(M) == len(M[0]):
+    print(f'Traço da matriz gerada: {calcula_traco_matriz(M)}')
+
+else:
+    print('Não foi possível calcular o traço pois M não é quadrada.')
