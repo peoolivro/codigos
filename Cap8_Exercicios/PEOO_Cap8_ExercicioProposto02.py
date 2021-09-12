@@ -1,6 +1,6 @@
 # Livro...: Introdução a Python com Aplicações de Sistemas Operacionais
 # Capítulo: 08
-# Questão.: 8.4.2
+# Questão.: Exercício Proposto 2
 # Autor...: Givanaldo Rocha de Souza
 # Data....: 30/04/2020
 
